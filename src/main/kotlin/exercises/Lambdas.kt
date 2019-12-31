@@ -2,7 +2,7 @@ package exercises
 
 fun main(){
     /*
-    Lambdas: Un a lambda es una funcion anonima o que no tiene nombre, tiene parametrso de entrada, asi como de salida.
+    Lambdas: Un a lambda es una funcion anonima o que no tiene nombre, tiene parametros de entrada, asi como de salida.
      */
 
     val mensajeBienvenida = {name: String, empresa: String ->
