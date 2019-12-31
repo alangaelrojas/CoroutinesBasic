@@ -7,7 +7,7 @@ fun main(){
     val mensajeBienvenidaLambda = { name: String -> println("Hola $name") }
     sayHello(arrayListOf("Alan", "Jorge", "Gabriel"), mensajeBienvenidaLambda)
 
-    println(dividedByTen(arrayListOf(10,20,30,40,50)) { number: Int -> number / 10 })
+    println(dividedByTen(arrayListOf(10,23,32,46,54)) { number: Int -> number / 10 })
 
     println(names(arrayListOf("Alan", "Jorge", "Gabriel")) { name: String -> "Bienvenido $name" })
 }
@@ -30,5 +30,6 @@ private fun names(names: ArrayList<String>, messageNames: (String) -> String): A
     }
     return names
 }
+
 
 

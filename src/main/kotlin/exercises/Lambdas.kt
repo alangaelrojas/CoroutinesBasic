@@ -7,5 +7,5 @@ fun main(){
 
     val mensajeBienvenida = {name: String, empresa: String ->
         println("Hola $name, Bienvenido a $empresa")}
-    mensajeBienvenida("Alan Garcia", "MAVI S.A. de C.V.")
+    mensajeBienvenida("Alan Garcia", "MAVI de Occidente S.A. de C.V.")
 }
